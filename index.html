@@ -30,37 +30,37 @@
                 height="30px"/>
              </a>
              <ul class="flex space-x-5">
-               <li class="text-white py-7 hover:text-blue-300 cursor-pointer transition-all duration-200 relative group">
+               <li class="text-white py-7 hover:text-blue-300 cursor-pointer transition-all duration-200 relative group hidden lg:block">
                   <a href="#">Payments</a>
                   <div class="absolute bottom-0 w-full h-1 bg-blue-300 hidden group-hover:block "></div>
                </li>
              
-               <li class="text-white py-7 hover:text-blue-300 cursor-pointer transition-all duration-200 relative group">
+               <li class="text-white py-7 hover:text-blue-300 cursor-pointer transition-all duration-200 relative group hidden lg:block">
                   <a href="#">Banking</a>
                   <div class="absolute bottom-0 w-full h-1 bg-blue-300 hidden group-hover:block "></div>
                </li>
 
-               <li class="text-white py-7 hover:text-blue-300 cursor-pointer transition-all duration-200 relative group">
+               <li class="text-white py-7 hover:text-blue-300 cursor-pointer transition-all duration-200 relative group hidden lg:block">
                   <a href="#">Corporate Card</a>
                   <div class="absolute bottom-0 w-full h-1 bg-blue-300 hidden group-hover:block "></div>
                </li>
 
-               <li class="text-white py-7 hover:text-blue-300 cursor-pointer transition-all duration-200 relative group">
+               <li class="text-white py-7 hover:text-blue-300 cursor-pointer transition-all duration-200 relative group hidden lg:block">
                   <a href="#">Payroll</a>
                   <div class="absolute bottom-0 w-full h-1 bg-blue-300 hidden group-hover:block "></div>
                </li>
 
-               <li class="text-white py-7 hover:text-blue-300 cursor-pointer transition-all duration-200 relative group">
+               <li class="text-white py-7 hover:text-blue-300 cursor-pointer transition-all duration-200 relative group hidden lg:block">
                   <a href="#">Resources</a>
                   <div class="absolute bottom-0 w-full h-1 bg-blue-300 hidden group-hover:block "></div>
                </li>
 
-               <li class="text-white py-7 hover:text-blue-300 cursor-pointer transition-all duration-200 relative group">
+               <li class="text-white py-7 hover:text-blue-300 cursor-pointer transition-all duration-200 relative group hidden lg:block">
                   <a href="#">Support</a>
                   <div class="absolute bottom-0 w-full h-1 bg-blue-300 hidden group-hover:block "></div>
                </li>
 
-               <li class="text-white py-7 hover:text-blue-300 cursor-pointer transition-all duration-200 relative group">
+               <li class="text-white py-7 hover:text-blue-300 cursor-pointer transition-all duration-200 relative group hidden lg:block">
                   <a href="#">Pricing</a>
                   <div class="absolute bottom-0 w-full h-1 bg-blue-300 hidden group-hover:block "></div>
                </li>
@@ -72,10 +72,11 @@
            <img 
               src="./images/india-flag.svg"
               width="28px"
-              height="20px"/>
+              height="20px"
+              class="hidden lg:block"/>
           <button class="py-3 px-5 text-white border-amber-50 border font-bold text-sm rounded-sm">Log in</button>
 
-          <button class="py-3 px-5 text-blue-400 transition-all duration-200 hover:text-blue-600 border font-semibold text-sm rounded-sm bg-white">Sign Up</button>
+          <button class="py-3 px-5 text-blue-400 transition-all duration-200 hover:text-blue-600 border font-semibold text-sm rounded-sm bg-white hidden lg:block">Sign Up</button>
 
          
          </div>
@@ -87,7 +88,7 @@
    <!-- ----------Hero Section------- -->
     <section class="relative bg-blue-950">
 
-      <div class="flex w-10/12 max-w-[1080px] flex-row justify-between items-center mx-auto">
+      <div class="flex w-10/12 max-w-[1080px] flex-col lg:flex-row justify-between items-center mx-auto">
             <!-- ----left-part--- -->
              <div class="space-y-8">
                <h1 class="font-bold text-[40px] leanding-[1.2] text-white">Power your finance, grow your business</h1>
@@ -124,7 +125,8 @@
 
        <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4">
            <!-- ----heading---- -->
-            <h2 class="font-extrabold font-mono text-2xl leading-[1.2] text-center">Accept Paymet with Razorpay Payment Suite</h2>
+            <h2 class="font-extrabold font-mono text-2xl leading-[1.2] text-center hidden md:block">Accept Paymet with Razorpay Payment Suite</h2>
+            <h2 class="font-extrabold font-mono text-4xl leading-[1.2] text-center  md:hidden">Explor Razorpay Payment suite</h2>
             <div class="w-6 h-1 bg-green-400 mx-auto mt-4 mb-6"></div>
 
             <!-- ----content box---- -->
@@ -162,23 +164,23 @@
                         </li>
                      </ul>
                      <!-- -------For button----- -->
-                  <div class="flex flex-row items-center space-x-4">
-                        <button class="bg-blue-400 text-white rounded-md font-mono font-bold hover:bg-blue-500 transition-all duration-200 py-[14px] px-[18px] ">
+                  <div class="flex flex-col-reverse md:flex-row items-center space-x-4">
+                        <button class="bg-blue-400 text-white w-full md:w-fit rounded-md font-mono font-bold hover:bg-blue-500 transition-all duration-200 py-[14px] px-[18px] ">
                            Sign Up Now</button>
                      <!-- ----hyper link----- -->
-                      <div class="font-mono cursor-pointer font-bold">
+                      <div class="font-mono cursor-pointer font-bold ">
                         <a href="" class="text-blue-300 hover:text-blue-400 transition-all duration-200">Know More</a>
                       </div>
              </div>
                
             </div>
 
-            <img src="./images/payment-suite.png" class="max-w-[600px] bottom-0 right-0 absolute">            
+            <img src="./images/payment-suite.png" class="max-w-[600px] bottom-0 right-0 absolute hidden md:max-w-[400px] lg:max-w-[600px] md:block lg:blo ">            
 
        </div>  
 
      <!-- ------Grid-section---- -->
-      <div class="grid w-full grid-cols-3 mt-12 gap-4 ">
+      <div class="grid w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-12 gap-4 ">
          <!-- -----Box-1---- -->
           <div class="w-full min-h-[15rem] relative cursor-pointer border hover:shadow-xl  ">
               <img src="./images/payment-link-icon.svg" alt=""
